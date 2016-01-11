@@ -1,9 +1,16 @@
 jQuery(document).ready(function() {
-  $(".clickable").click(function() {
+  $(".peekaboo .clickable").click(function() {
     $("#initially-showing").toggle();
     $("#initially-hidden").toggle();
-  })
+  });
 
+  $("#fading-content .clickable").click(function() {
+    $("#fading-content").fadeOut( "slow", "linear");
+  });
+
+  $("#come-back .clickable").click(function() {
+    $("#fading-content").fadeIn( "fast" );
+  })
 
 
 
