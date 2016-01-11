@@ -3,13 +3,9 @@ jQuery(document).ready(function() {
     $("#peekaboo").toggle();
   });
 
-  $("#fading-content .clickable").click(function() {
-    $("#fading-content").fadeOut( "slow", "linear");
-  });
-
-  $("#come-back .clickable").click(function() {
-    $("#fading-content").fadeIn( "fast" );
-  });
+  $("#fade-button").click(function() {
+    $("#fade").fadeToggle( "slow" );
+  })
 
   $(".slide-up").click(function(){
     $(".sliding-text").slideUp("slow");
