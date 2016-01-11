@@ -1,7 +1,6 @@
 jQuery(document).ready(function() {
-  $(".peekaboo .clickable").click(function() {
-    $("#initially-showing").toggle();
-    $("#initially-hidden").toggle();
+  $("#peekaboo-button").click(function() {
+    $("#peekaboo").toggle();
   });
 
   $("#fading-content .clickable").click(function() {
@@ -10,7 +9,11 @@ jQuery(document).ready(function() {
 
   $("#come-back .clickable").click(function() {
     $("#fading-content").fadeIn( "fast" );
-  })
+  });
+
+  $(".slide-up").click(function(){
+    $(".sliding-text").slideUp("slow");
+  });
 
 
 
