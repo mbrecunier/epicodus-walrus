@@ -10,28 +10,40 @@
 
     <body>
       <div class="container">
-        <h1>HTML Help</h1>
+        <div class="page-header">
+          <h1>The Walrus Games</h1>
+        </div>
 
-        <div>
-          <p>Do you like playing games? So does somebody else! See who is playing by clicking the Peekaboo button. Click again to hide.</p>
-          <button type="button" class="btn btn-primary" id="peekaboo-button">Peekaboo</button>
-          <div id="peekaboo">
-            <p>PEEKABOO!</p>
-            <img src="img/walrus.jpeg" alt="picture of walrus">
+        <div class="row">
+          <div class="col-md-4">
+            <p>Do you like playing games? So does somebody else! See who is playing by clicking the Peekaboo button. Click again to hide.</p>
+            <button type="button" class="btn btn-primary" id="peekaboo-button">Peekaboo</button>
+            <div id="peekaboo">
+              <p>PEEKABOO!</p>
+              <img src="img/walrus.jpeg" alt="picture of walrus">
+            </div>
           </div>
+
+          <div class="col-md-4">
+            <p>There is more than one way to disappear. Click on the button below to find another way.</p>
+            <button type="button" class="btn btn-success" id="fade-button">Fade</button>
+            <div id="fade">
+              <img src="img/walrus.jpeg" alt="picture of walrus">
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <p>Where else can our walrus hide? Maybe things are slippery and he can slide...
+            </p>
+            <button type="button" class="btn btn-info" id="slide-button">Slide</button>
+            <div id="slide">
+              <img src="img/walrus.jpeg" alt="picture of walrus">
+            </div>
+          </div>
+
         </div>
 
-        <div>
-          <p>There is more than one way to disappear. Click on the button below to find another way.</p>
-          <button type="button" class="btn btn-success" id="fade-button">Fade</button>
-          <div id="fade">
-            <img src="img/walrus.jpeg" alt="picture of walrus">
-        </div>
 
-        <div class="sliding-text">
-          <p> This text will slide up by clicking <span class="clickable slide-up">here</span>, and down by clicking <span class="clickable slide-down">here</span>.
-          </p>
-        </div>
       </div>
     </body>
 </html>

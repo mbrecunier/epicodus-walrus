@@ -5,10 +5,10 @@ jQuery(document).ready(function() {
 
   $("#fade-button").click(function() {
     $("#fade").fadeToggle( "slow" );
-  })
+  });
 
-  $(".slide-up").click(function(){
-    $(".sliding-text").slideUp("slow");
+  $("#slide-button").click(function() {
+    $("#slide").slideToggle( "fast" );
   });
 
 
