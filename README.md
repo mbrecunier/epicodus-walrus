@@ -6,12 +6,16 @@
 
 ## Description
 
-When you click on an html element an alert will pop up.
+Click on the different Walrus pictures to see different interactive effects.
 
 ## Setup/Installation Requirements
 
 * clone repository
 * open in browser
+
+--or--
+
+* View on [GitHub Pages] (http://mbrecunier.github.io/epicodus-walrus/)
 
 ## Known Bugs
 
